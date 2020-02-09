@@ -1,0 +1,27 @@
+.nav {
+  border-bottom: 1px solid rgb(220,220,220);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav i {
+  padding-right: 5px;
+}
+
+.chat {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+i.channel-icon {
+  font-size: 20px;
+}
+
+/*.type-message {
+  flex-shrink: 0;     don't shrink
+  flex-basis: 200px;
+}
+*/

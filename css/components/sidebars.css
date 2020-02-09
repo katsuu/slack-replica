@@ -1,0 +1,66 @@
+.sidebar {
+  background: #261C25;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;     /*don't shrink*/
+  flex-basis: 1px;   /*set as this width*/
+}
+
+.sidebar a {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.sidebar a.active {
+  color: white;
+  background: #514951;
+}
+
+.channels-sidebar {
+  background: rgb(75, 57, 73);
+  color: white;
+  padding: 15px;
+  flex-shrink: 0;     /*don't shrink*/
+  flex-basis: 200px;   /*set as this width*/
+}
+
+.channels-sidebar span {
+  color: #8D818B;
+}
+
+.channels-sidebar .active i, .channels-sidebar .active span {
+  color: white;
+}
+
+i.green-status {
+  color: #71E6BE;
+  font-size: 8px;
+  padding-right: 10px;
+}
+
+i.ch-icon {
+  color: #8D818B;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.sidebar-plus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.align-icons {
+  display: flex;
+  align-items: center;
+}
