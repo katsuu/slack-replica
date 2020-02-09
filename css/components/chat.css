@@ -11,17 +11,16 @@
 
 .chat {
   display: flex;
-  width: 100%;
   flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
 }
 
 i.channel-icon {
   font-size: 20px;
 }
 
-/*.type-message {
-  flex-shrink: 0;     don't shrink
-  flex-basis: 200px;
+.chat-content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;  /*like setting height to 100%*/
 }
-*/

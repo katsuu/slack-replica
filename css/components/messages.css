@@ -1,7 +1,6 @@
 .messages {
   margin-top: 20px;
-  height: 84vh;
-  overflow: scroll;
+  overflow: scroll;    /*No need to set height as this is flexed*/
 }
 
 .message {
